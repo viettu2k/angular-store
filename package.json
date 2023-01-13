@@ -7,7 +7,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "deploy": "ng build --output-path docs --base-href /angular-store/"
+    "deploy": "ng build && ng build 'angular-store' --prod --vendor-chunk=true && ng build --prod --base-href https://viettu2k.github.io/angular-store/ && ng build --prod --base-href=/angular-store/ && ngh --dir=dist/angular-store/"
   },
   "private": true,
   "dependencies": {
