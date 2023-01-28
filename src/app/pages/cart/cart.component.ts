@@ -12,7 +12,7 @@ export class CartComponent implements OnInit {
       {
         product: 'https://via.placeholder.com/150',
         name: 'shoes',
-        price: 147,
+        price: 146,
         quantity: 34,
         id: 1,
       },
